@@ -33,8 +33,6 @@ table {
 }
 
 td {
-  height: 0em;
-  width: 0em;
   border: 2px solid white;
   font-size: 1.5em;
   padding: 1px;
@@ -42,7 +40,7 @@ td {
 
 a{
   color: white;
-  background-color: #4CAF50;
+  background-color: orange;
   padding: 5px 10px;
   font-size: 20px;
   border: 2px solid white;
@@ -54,7 +52,7 @@ footer{
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: orange;
   border: 2px solid white;
   color: white;
   padding: 5px 10px;
@@ -76,12 +74,7 @@ footer{
   float: left;
  }
 
-#high{
-  display: inline-block;
-  float: right;
-}
-
-#reset{
+#high, #reset{
   display: inline-block;
   float: right;
 }
