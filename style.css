@@ -42,7 +42,7 @@ td {
 
 a{
   color: white;
-  background-color: #4CAF50;
+  background-color: orange;
   padding: 5px 10px;
   font-size: 20px;
   border: 2px solid white;
@@ -54,7 +54,7 @@ footer{
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: orange;
   border: 2px solid white;
   color: white;
   padding: 5px 10px;
