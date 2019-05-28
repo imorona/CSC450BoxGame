@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css?family=Quantico&display=swap';
+
+body{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  font-family: 'Quantico', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80);
+}
+
+main {
+  margin: 0 auto;
+  width:50%
+}
+
+h1{
+  text-align: center;
+  padding: 5px;
+}
+
+p, ol{
+  font-size: 20px;
+  padding: 5px 40px;
+}
+
+table {
+  border: 1px white solid;
+  border-collapse: collapse;
+  display: inline-block;
+  margin: 5px auto;
+  color: black;
+}
+
+td {
+  height: 0em;
+  width: 0em;
+  border: 2px solid white;
+  font-size: 1.5em;
+  padding: 1px;
+}
+
+a{
+  color: white;
+  background-color: #4CAF50;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+footer{
+  margin: 30px auto;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Quantico', sans-serif;
+}
+
+.ruleBackground{
+  background-color: orange;
+  border: 2px solid white;
+  margin-top: 30px;
+}
+
+#counter{
+  display: inline-block;
+  float: left;
+ }
+
+#high{
+  display: inline-block;
+  float: right;
+}
+
+#reset{
+  display: inline-block;
+  float: right;
+}
